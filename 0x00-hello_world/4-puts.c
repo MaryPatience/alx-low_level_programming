@@ -1,8 +1,10 @@
 #include <stdio.h>
 
-main(void)
+/**
+ *  * main - prints the phrase */
+int main(void)
 {
-	xyz[]="Programming is like building a multilingual puzzle";
-	puts(xyz);	
-	return 0;
+		puts("\"Programming is like building a multilingual puzzle");
+			return (0); /*return 0*/
 }
+
