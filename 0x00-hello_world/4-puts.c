@@ -1,11 +1,8 @@
-#!/bin/bash
-#include<stdio.h>
-#include<string.h>
-int main(){
-	//
-	//string initialisation
-        char Mystr[] = "Programming is like building a multilingual puzzle";
-	puts(Mystr); //writing the string to stdout
+#include <stdio.h>
+
+main(void)
+{
+	xyz[]="Programming is like building a multilingual puzzle";
+	puts(xyz);	
 	return 0;
 }
-		                       
