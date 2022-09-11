@@ -1,4 +1,4 @@
-nclude <stdio.h>
+#include <stdio.h>
 /**
  * main - prints value of "greater than 5" or " zero" or "than 6 and not 0"
  *
@@ -8,7 +8,8 @@ nclude <stdio.h>
 int main(void)
 {
 	int ch;
-	for (ch='z'; ch>='a' ; ch--)
+
+	for (ch='z';ch>='a' ;ch--)
 	{
 		putchar (ch);
 	}
