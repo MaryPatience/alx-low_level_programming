@@ -12,12 +12,12 @@ int main(void)
 	for (ch = 0; ch < 10; ch++)
 	{
 		putchar(ch + '0');
-		for (ch = 0; ch < 10; ch++)
-		{
-			putchar(ch + '0');
-			putchar(',');
-			putchar(32);
-		}
+			for (ch = 0; ch < 10; ch++)
+			{
+				putchar(ch + '0');
+				putchar(',');
+				putchar(32);
+			}
 		
 	}
 	putchar('\n');
