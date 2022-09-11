@@ -11,7 +11,7 @@ int main(void)
 
 	for (ch = 97; ch < 123 ; ch++)
 	{
-		if (ch = 'e' || ch = 'q')
+		if (ch == 'e' || ch == 'q')
 		{
 			continue;
 		}
