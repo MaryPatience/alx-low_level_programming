@@ -1,8 +1,10 @@
-#include <stdlib.h>
-#include <time.h>
-
+#include<stdlib.h>
+#include<time.h>
+#include<stdio.h>
 /**
- * main - prints value of "n" and wether its negative, zero or positive
+ * main - prints value of "n is negative" or "n is zero" or "n is positive"
+ *
+ * Description: if statement
  * Return: 0 if exited properly, non-zero otherwise
  */
 int main(void)
