@@ -8,6 +8,7 @@
 int main(void)
 {
 	int ch;
+
 	for (ch = 0; ch < 10; ch++)
 	{
 		putchar(ch + '0');
@@ -16,10 +17,6 @@ int main(void)
 			putchar(ch + '0');
 			putchar(',');
 			putchar(32);
-			if (ch == 9)
-			{
-				continue;
-			}
 		}
 		
 	}
