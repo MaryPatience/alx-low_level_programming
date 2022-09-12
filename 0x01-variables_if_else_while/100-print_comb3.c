@@ -11,8 +11,12 @@ int main(void)
 
 	for (ch = 0; ch < 100; ch++)
 	{
-		putchar((ch/10) + '0');
-		putchar((ch%10) + '0');
+		putchar((ch / 10) + '0');
+		putchar((ch % 10) + '0');
+		if (ch == 89)
+		{
+			break;
+		}
 		putchar(',');
 		putchar(32);
 	}
