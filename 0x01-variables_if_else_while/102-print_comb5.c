@@ -16,13 +16,13 @@ int main(void)
 	{
 		for (vr = 0; vr < 10; vr++)
 		{
-			putchar(ch + '0');
-			putchar(vr + '0');
-			putchar(32);
 			for (m = 0; m < 10; m++)
 			{
 				for  (n = m + 1; n < 10; n++)
 				{
+					putchar(ch + '0');
+					putchar(vr + '0');
+					putchar(32);
 					putchar(m + '0');
 					putchar(n + '0');
 				}
