@@ -16,9 +16,9 @@ int main(void)
 			for (vr = 0; vr < 10; vr++)
 			{
 				putchar(vr + '0');
-				putchar(',');
-				putchar(32);
 			}
+		putchar(',');
+		putchar(32);
 		if (ch == 9)
 		{
 			break;
