@@ -10,10 +10,9 @@ int main(void)
 	int ch;
 	int vr;
 	
-	vr = ch + 1;
 	for (ch = 0; ch < 9; ch++)
 	{
-		for (vr = 1; vr < 10; vr++)
+		for (vr = ch + 1; vr < 10; vr++)
 		{
 			putchar(ch + '0');
 			putchar(vr + '0');
