@@ -16,7 +16,7 @@ int main(void)
 		for (vr = ch + 1; vr < 9; vr++)
 		{
 			for (xy = vr + 1; xy < 10; xy++)
-			{	
+			{
 			putchar(ch + '0');
 			putchar(vr + '0');
 			putchar(xy + '0');
