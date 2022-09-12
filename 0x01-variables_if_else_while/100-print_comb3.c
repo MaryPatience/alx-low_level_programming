@@ -8,17 +8,21 @@
 int main(void)
 {
 	int ch;
+	int vr;
 
 	for (ch = 0; ch < 10; ch++)
 	{
 		putchar(ch + '0');
-			for (ch = 0; ch < 10; ch++)
+			for (vr = 0; vr < 10; vr++)
 			{
-				putchar(ch + '0');
+				putchar(vr + '0');
 				putchar(',');
 				putchar(32);
 			}
-		
+		if (ch == 9)
+		{
+			break;
+		}
 	}
 	putchar('\n');
 	return (0);
