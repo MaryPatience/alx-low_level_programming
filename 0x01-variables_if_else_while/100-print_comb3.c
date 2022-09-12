@@ -15,10 +15,6 @@ int main(void)
 		putchar((ch%10) + '0');
 		putchar(',');
 		putchar(32);
-		if (ch == 9)
-		{
-			break;
-		}
 	}
 	putchar('\n');
 	return (0);
