@@ -9,7 +9,7 @@ int main(void)
 {
 	int ch;
 	int vr;
-	
+
 	for (ch = 0; ch < 9; ch++)
 	{
 		for (vr = ch + 1; vr < 10; vr++)
