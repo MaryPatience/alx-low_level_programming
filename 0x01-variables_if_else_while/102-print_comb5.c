@@ -25,6 +25,8 @@ int main(void)
 				{
 					putchar(m + '0');
 					putchar(n + '0');
+				}
+			}
 			if (ch == 9 && vr == 9)
 			{
 				break;
