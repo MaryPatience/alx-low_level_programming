@@ -10,13 +10,13 @@ int main(void)
 	int ch;
 	int vr;
 
-	for (ch = 0; ch < 9; ch++)
+	for (ch = 0; ch < 10; ch++)
 	{
-		for (vr = ch + 1; vr < 10; vr++)
+		for (vr = 0; vr < 10; vr++)
 		{
 			putchar(ch + '0');
 			putchar(vr + '0');
-			if (ch == 8 && vr == 9)
+			if (ch == 9 && vr == 9)
 			{
 				break;
 			}
