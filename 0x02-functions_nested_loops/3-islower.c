@@ -5,7 +5,7 @@
  * Description: putchar
  * Return: 0 when it runs as expected
  */
-int _islower(int c);
+int _islower(int c)
 {
 	int c;
 
