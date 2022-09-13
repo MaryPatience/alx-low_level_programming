@@ -5,15 +5,22 @@
  * Description: putchar
  * Return: 0 when it runs as expected
  */
-int main(void)
+void print_alphabet(void)
 {
 	int ch;
 
-	for (ch = 'a'; ch <= 'z'; ch++)
+        for (ch = 'a'; ch <= 'z'; ch++)
 	{
 		putchar(ch);
 	}
-	putchar('\n');
+        putchar('\n');
 	return (0);
+}
+
+int main(void)
+{
+	print_alphabet();
+	return (0);
+	
 }
 
