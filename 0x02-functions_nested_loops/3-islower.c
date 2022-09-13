@@ -4,6 +4,7 @@
  *
  * Description: putchar
  * Return: 0 when it runs as expected
+ * Return: 1 when lowercase
  */
 int _islower(int c)
 {
