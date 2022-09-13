@@ -5,7 +5,7 @@
  * Description: putchar
  * Return: 0 when it runs as expected
  */
-void print_alphabet(void)
+void print_alphabet_x10(void)
 {
 	int ch;
 	int xy;
