@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - nested loops
+ * print_alphabet - nested loops
  *
  * Description: putchar
  * Return: 0 when it runs as expected
