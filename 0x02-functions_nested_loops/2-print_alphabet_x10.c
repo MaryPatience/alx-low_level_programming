@@ -8,11 +8,17 @@
 void print_alphabet(void)
 {
 	int ch;
+	int xy;
 
-	for (ch = 'a'; ch <= 'z'; ch++)
+	xy = 0;
+	while (xy < 10)
 	{
-		putchar(ch);
+		for (ch = 'a'; ch <= 'z'; ch++)
+		{
+			putchar(ch);
+		}
+		putchar('\n');
+		xy++;
 	}
-	putchar('\n');
 }
 
