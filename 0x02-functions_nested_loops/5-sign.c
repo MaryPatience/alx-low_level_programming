@@ -6,15 +6,22 @@
  * Return: 0 when it runs as expected
  * Return: 1 when lowercase
  */
-int _isalpha(int c)
+int print_sign(int n)
 {
-	if ((c > 'a' && c < 'z') || (c > 'A' && c < 'Z'))
+	if (n > 0)
 	{
+		putchar(43);
 		return (1);
+	}
+	else if (n == 0)
+	{
+		putchar(48);
+		return (0);
 	}
 	else
 	{
-		return (0);
+		putchar(45);
+		return (-1);
 	}
 }
 
