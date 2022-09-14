@@ -8,20 +8,24 @@
  */
 int print_sign(int n)
 {
+	int xy;
+	int ch;
+	int lm;
+
 	if (n > 0)
 	{
-		putchar(43);
-		putchar(1 + '0');
+		xy = int(+1);
+		return (xy);
 	}
 	else if (n == 0)
 	{
-		putchar(0 + '0');
-		putchar(0 + '0');
+		ch = int(000);
+		return (ch);
 	}
 	else
 	{
-		putchar(45);
-		putchar(1 + '0');
+		lm = int(-1);
+		return (lm);
 	}
 }
 
