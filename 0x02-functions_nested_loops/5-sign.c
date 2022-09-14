@@ -14,17 +14,17 @@ int print_sign(int n)
 
 	if (n > 0)
 	{
-		xy = int(+1);
+		xy = +1;
 		return (xy);
 	}
 	else if (n == 0)
 	{
-		ch = int(000);
+		ch = 000;
 		return (ch);
 	}
 	else
 	{
-		lm = int(-1);
+		lm = -1;
 		return (lm);
 	}
 }
