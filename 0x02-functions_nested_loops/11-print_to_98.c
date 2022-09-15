@@ -1,8 +1,9 @@
 #include "main.h"
+#include <stdio.h>
 /**
  * print_to_98 - function
  * @n: variable
- *
+ *i
  * Description: natural numbers
  * Return: void
  */
@@ -14,19 +15,18 @@ void print_to_98(int n)
 	{
 		for (ch = n; ch >= 98; ch--)
 		{
-			_putchar(ch + '0');
+			printf("%d", ch);
 		}
 	}	
 	else if (n == 98)
 	{
-		_putchar((98 / 10) + '0');
-		 _putchar((98 % 10) + '0');
+		 printf("%d", n);
 	}
 	else
 	{
 		for (ch = n; ch <= 98; ch++)
 		{
-			 _putchar(ch + '0');
+			 printf("%d", ch);
 		}
 	}
 }
