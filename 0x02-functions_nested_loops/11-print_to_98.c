@@ -16,11 +16,17 @@ void print_to_98(int n)
 		for (ch = n; ch >= 98; ch--)
 		{
 			printf("%d", ch);
+			if (ch == 98)
+			{
+				break;
+			}
+			_putchar(',');
+			_putchar(32);
 		}
 	}	
 	else if (n == 98)
 	{
-		 printf("%d", n);
+		 printf("98");
 	}
 	else
 	{
@@ -28,6 +34,12 @@ void print_to_98(int n)
 		{
 			 printf("%d", ch);
 		}
+		if (ch == 98)
+		{
+			break;
+		}
+		_putchar(',');
+		_putchar(32);
 	}
 }
 
