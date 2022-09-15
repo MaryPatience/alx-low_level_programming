@@ -19,6 +19,10 @@ void times_table(void)
 				_putchar((d / 10) + '0');
 				_putchar((d % 10) + '0');
 			}
+			else if (d == 0)
+			{
+				_putchar ('0');
+			}
 			else
 			{
 				_putchar(' ');
