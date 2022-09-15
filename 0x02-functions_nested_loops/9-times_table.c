@@ -3,7 +3,7 @@
  * times_table - multiplication table of 9
  *
  * Description: times 9
- * Return: void
+ * Return: Always 0
  */
 void times_table(void)
 {
@@ -35,4 +35,4 @@ void times_table(void)
 			}
 		}
 	}
-}
+i}
