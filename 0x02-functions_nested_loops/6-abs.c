@@ -9,7 +9,7 @@
  * Description: putchar
  * Return: 0 when it runs as expected
  */
-int _abs(int)
+int _abs(int c)
 {
 	int c;
 
