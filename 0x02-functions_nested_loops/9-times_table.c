@@ -22,7 +22,7 @@ void times_table(void)
 			{
 				_putchar(32);
 			}
-			_putchar((d % 10) + '0')
+			_putchar((d % 10) + '0');
 			if (cone == 9 && rone == 9)
 			{
 				break;
