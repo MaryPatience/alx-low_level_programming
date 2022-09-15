@@ -15,8 +15,13 @@ void times_table(void)
 		{
 			d = cone * rone;
 			_putchar(d + '0');
+			if (cone == 9 && rone == 9)
+			{
+				break;
+			}
 			_putchar(44);
 			_putchar(32);
+			
 		}
 	}
 	_putchar('\n');
