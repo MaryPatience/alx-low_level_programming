@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
  * times_table - multiplication table of 9
  *
@@ -14,7 +15,7 @@ void times_table(void)
 		for (cone =0; cone <=9; cone++)
 		{
 			d = cone * rone;
-			_putchar(d + '0');
+			putchar(d + '0');
 			if (cone == 9 && rone == 9)
 			{
 				break;
