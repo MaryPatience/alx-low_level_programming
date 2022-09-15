@@ -23,14 +23,16 @@ void times_table(void)
 			{
 				_putchar(d + '0');
 			}
-			if (cone == 9 && rone == 9)
+			if (cone == 9)
 			{
-				break;
+				_putchar('\n');
 			}
-			_putchar(44);
-			_putchar(32);
+			else
+			{
+				_putchar(44);
+				_putchar(32);
+			}
 			
 		}
 	}
-	_putchar('\n');
 }
