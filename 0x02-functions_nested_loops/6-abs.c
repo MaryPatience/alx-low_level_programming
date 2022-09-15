@@ -13,6 +13,6 @@ int _abs(int)
 {
 	int c;
 
-	putchar('abs(c)' + '0');
+	putchar(abs(c) + '0');
 	return (0);
 }
