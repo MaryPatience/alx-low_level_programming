@@ -15,8 +15,9 @@ void times_table(void)
 		{
 			d = cone * rone;
 			_putchar(d + '0');
-			_putchar(",");
-			_putchar(" ");
+			putchar(",");
+			putchar(" ");
 		}
 	}
+	putchar('\n');
 }
