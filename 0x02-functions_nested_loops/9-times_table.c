@@ -21,6 +21,7 @@ void times_table(void)
 			}
 			else
 			{
+				_putchar(' ');
 				_putchar(d + '0');
 			}
 			if (cone == 9)
@@ -32,7 +33,6 @@ void times_table(void)
 				_putchar(44);
 				_putchar(32);
 			}
-			
 		}
 	}
 }
