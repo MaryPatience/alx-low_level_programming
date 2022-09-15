@@ -2,7 +2,7 @@
 #include "main.h"
 /**
  * _isalpha - nested loops
- * @n: the int to print
+ * @c: the int to print
  *
  * Description: putchar
  * Return: 0 when it runs as expected
