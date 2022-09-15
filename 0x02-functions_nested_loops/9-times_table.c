@@ -19,5 +19,5 @@ void times_table(void)
 			_putchar(32);
 		}
 	}
-	putchar('\n');
+	_putchar('\n');
 }
