@@ -16,12 +16,10 @@ void print_to_98(int n)
 		for (ch = n; ch >= 98; ch--)
 		{
 			printf("%d", ch);
-			if (ch == 98)
+			if (ch != 98)
 			{
-				break;
+				printf(", ");
 			}
-			_putchar(',');
-			_putchar(32);
 		}
 	}	
 	else if (n == 98)
@@ -34,12 +32,10 @@ void print_to_98(int n)
 		{
 			 printf("%d", ch);
 		
-			if (ch == 98)
+			if (ch != 98)
 			{
-				break;
+				printf(", ");
 			}
-			_putchar(',');
-			_putchar(32);
 		}
 	}
 }
