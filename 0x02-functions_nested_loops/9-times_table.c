@@ -16,7 +16,7 @@ void times_table(void)
 			d = cone * rone;
 			if ((d / 10) > 0)
 			{
-				_putchar(d + '0');
+				_putchar((d / 10) + '0');
 			}
 			else
 			{
