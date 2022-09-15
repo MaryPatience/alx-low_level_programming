@@ -19,7 +19,8 @@ void print_to_98(int n)
 	}	
 	else if (n == 98)
 	{
-		_putchar(98 + '0');
+		_putchar((98 / 10) + '0');
+		 _putchar((98 % 10) + '0');
 	}
 	else
 	{
