@@ -1,9 +1,7 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * _isalpha - nested loops
- * @h: hours
- * @m: minutes
+ * jack_bauer - nested loop
  *
  * Description: putchar
  * Return: 24 hour clock line by line
