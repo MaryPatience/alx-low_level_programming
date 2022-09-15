@@ -1,11 +1,12 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * _islower - nested loops
+ * print_sign - nested loops
+ * @n: variabl
+ * e
  *
  * Description: putchar
  * Return: 0 when it runs as expected
- * Return: 1 when lowercase
  */
 int print_sign(int n)
 {
