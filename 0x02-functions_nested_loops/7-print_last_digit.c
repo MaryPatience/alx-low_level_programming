@@ -1,6 +1,4 @@
-#include <stdio.h>
 #include "main.h"
-#include <stdlib.h>
 /**
  * print_last_digit - nested loops
  * @c: the int to print
@@ -10,6 +8,18 @@
  */
 int print_last_digit(int c)
 {
-	_putchar((abs(c) % 10) + '0');
-	return (abs(c) % 10);
+	int last_digit;
+
+	if (c < 0)
+	{
+		last_digit = (-1 * (c % 10));
+		_putchar (last_digit + '0');
+		return (last_digit);
+	}
+	else
+	{
+		last_digit = (c % 10);
+		_putchar (last_digit + '0');
+		return (last_digit);
+	}
 }
