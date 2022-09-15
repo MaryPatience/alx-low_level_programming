@@ -2,7 +2,7 @@
 /**
  * add - sum up
  * @a: first integer
- * @b \: seconf integder
+ * @b: seconf integder
  *
  * Description: adder
  * Return: sum
