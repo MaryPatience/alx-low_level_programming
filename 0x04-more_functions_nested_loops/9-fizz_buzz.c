@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.>
 /**
  * main - print numbers
  *
@@ -19,7 +20,7 @@ int main(void)
 		{
 			printf("Buzz ");
 		}
-		else if ((c % 3 == 0) && (c % 5 == 0))
+		else if (c % 3 == 0 && c % 5 == 0)
 		{
 			printf("FizzBuzz ");
 		}
