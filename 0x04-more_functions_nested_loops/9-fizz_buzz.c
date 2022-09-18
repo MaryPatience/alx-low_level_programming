@@ -24,10 +24,6 @@ void main(void)
 		{
 			printf("Buzz ");
 		}
-		else if
-		{
-			printf("Buzz");
-		}
 		else
 		{
 			printf("%d ", c);
