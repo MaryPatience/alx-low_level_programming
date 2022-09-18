@@ -16,10 +16,6 @@ int mul(int a, int b)
 	{
 		putchar('-');
 	}
-	if (pdt == 0)
-	{
-		putchar(0 + '0');
-	}
 	if (pdt % 10 != 0)
 	{
 		_putchar((var / 10) + '0');
