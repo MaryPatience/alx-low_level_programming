@@ -2,13 +2,14 @@
 #include "main.h"
 
 /**
- * hund - print numbers
+ * main - print numbers from 1 to 100, followed by a new line
+ * but for multiples of three prints Fizz instead of the number
+ * and for the multiples of five prints Buzz
  *
- * Description: print 0 to 9
  * Return: 0 successfully
  */
 
-int hund(void)
+int main(void)
 {
 	int c;
 
@@ -31,5 +32,6 @@ int hund(void)
 			printf("%d ", c);
 		}
 	}
-	return(0);
+	printf("\n");
+	return (0);
 }
