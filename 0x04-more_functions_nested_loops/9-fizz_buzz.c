@@ -6,7 +6,7 @@
  * Description: print 0 to 9
  * Return: 0 successfully
  */
-int main(void)
+void main(void)
 {
 	int c;
 
@@ -21,10 +21,6 @@ int main(void)
 			printf("Fizz ");
 		}
 		else if (c % 5 == 0)
-		{
-			printf("Buzz ");
-		}
-		else if (c == 100)
 		{
 			printf("Buzz ");
 		}
