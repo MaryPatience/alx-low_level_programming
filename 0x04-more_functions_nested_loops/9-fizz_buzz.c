@@ -2,11 +2,11 @@
 #include "main.h"
 /**
  * hund - print numbers
- * main - print numbers
  *
  * Description: print 0 to 9
  * Return: 0 successfully
  */
+
 void hund(void)
 {
 	int c;
@@ -30,9 +30,4 @@ void hund(void)
 			printf("%d ", c);
 		}
 	}
-}
-
-int main(void)
-{
-	hund()
 }
