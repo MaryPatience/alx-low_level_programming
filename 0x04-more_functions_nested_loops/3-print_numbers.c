@@ -10,11 +10,8 @@ void print_numbers(void)
 	int x;
 
 	for (x = 0; x < 10; x++)
-	{	
-		if (x >= '0' && x <= '9')
-		{	
-			_putchar(x + '0');
-		}
+	{
+		_putchar(x + '0');
 	}
 	_putchar('\n');
 }
