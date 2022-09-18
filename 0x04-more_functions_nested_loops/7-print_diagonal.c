@@ -1,12 +1,12 @@
 #include "main.h"
 /**
- * print_line - print numbers
+ * print_diagonal - print numbers
  * @n: number of time line is printed
  *
  * Description: print 0 to 9
  * Return: 0 successfully
  */
-void print_line(int n)
+void print_diagonal(int n)
 {
 	int x;
 	int f;
@@ -14,11 +14,7 @@ void print_line(int n)
 	x = 0;
 	while (x < n)
 	{
-		if (n <= 0)
-		{
-			_putchar('\n');
-		}
-		else if ( n == 1)
+		if ( n == 1)
 		{
 			_putchar(92);
 			_putchar('\n'); 
@@ -31,6 +27,10 @@ void print_line(int n)
 			}
 			_putchar(92);
 			_putchar('\n'); 
+		}
+		else
+		{
+			_putchar('\n');
 		}
 		x++;
 	}
