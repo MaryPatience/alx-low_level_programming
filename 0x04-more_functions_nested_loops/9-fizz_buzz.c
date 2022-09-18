@@ -1,0 +1,31 @@
+#include <stdio.h>
+/**
+ * main - print numbers
+ *
+ * Description: print 0 to 9
+ * Return: 0 successfully
+ */
+int main(void)
+{
+	int c;
+
+	for (c = 0; c <= 100; c++)
+	{
+		if (c % 3 == 0)
+		{
+			printf("Fizz ");
+		}
+		else if (c % 5 == 0)
+		{
+			printf("Buzz ");
+		}
+		else if ((c % 3 == 0) && (c % 5 == 0))
+		{
+			printf("FizzBuzz ");
+		}
+		else
+		{
+			printf("%d ", c);
+		}
+	}
+}
