@@ -16,21 +16,22 @@ void print_line(int n)
 	{
 		if (n <= 0)
 		{
-			break;
+			_putchar('\n');
 		}
 		else if ( n == 1)
 		{
 			_putchar(92);
+			_putchar('\n'); 
 		}
-		else
+		else if (n >= 2) 
 		{
 			for (f = 0; f < x; f++)
 			{
 				_putchar(' ');
 			}
 			_putchar(92);
+			_putchar('\n'); 
 		}
 		x++;
 	}
-	_putchar('\n');
 }
