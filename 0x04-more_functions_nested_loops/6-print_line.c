@@ -11,14 +11,17 @@ void print_line(int n)
 	int x;
 
 	x = 0;
-	while (x < n )
+	while (x < n)
 	{
-		_putchar('-');
 		if (n <= 0)
 		{
 			break;
 		}
-		x++;
+		else
+		{
+			_putchar('-');
+			x++;
+		}
 	}
 	_putchar('\n');
 }
