@@ -1,11 +1,11 @@
 #include "main.h"
 /**
- * print_numbers - print numbers
+ * more_numbers - print numbers
  *
  * Description: print 0 to 9
  * Return: 0 successfully
  */
-void print_numbers(void)
+void more_numbers(void)
 {
 	int m;
 	int n;
