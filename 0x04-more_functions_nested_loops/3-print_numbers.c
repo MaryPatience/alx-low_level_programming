@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * print_numbers - capital letters
+ * print_numbers - print numbers
  *
- * Description: show us capital letters
+ * Description: print 0 to 9
  * Return: 0  well run successfully
  */
 void print_numbers(void)
