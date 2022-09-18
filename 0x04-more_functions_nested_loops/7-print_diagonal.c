@@ -14,12 +14,7 @@ void print_diagonal(int n)
 	x = 0;
 	while (x < n)
 	{
-		if (n == 1)
-		{
-			_putchar(92);
-			_putchar('\n');
-		}
-		else if (n >= 2)
+		if (n >= 1)
 		{
 			for (f = 0; f < x; f++)
 			{
