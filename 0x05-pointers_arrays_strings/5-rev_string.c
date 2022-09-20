@@ -9,17 +9,27 @@
  */
 void rev_string(char *s)
 {
+	int l, i;
+	char *begin_ptr, *end_ptr, ch;
 
-	int len;
-	int i;
-
-	len = 0;
+	l = 0;
 	for (i = 0; *(s + i) != '\0'; i++)
 	{
-		len++;
+		l++;
 	}
-	for (i = len - 1; i >= 0; i--)
+	begin_ptr = str;
+	end_ptr = str;
+	for (i = 0; i < l - 1; i++)
 	{
-		_putchar(*(s + i));
+		end_ptr++;
 	}
+	for (i = 0; i < l / 2; i++)
+	{
+		ch = *end_ptr;
+		*end_ptr = *begin_ptr;
+		*begin_ptr = ch;
+		begin_ptr++;
+		end_ptr--;
+	}
+
 }
