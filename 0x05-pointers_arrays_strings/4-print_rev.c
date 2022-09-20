@@ -11,11 +11,18 @@ void print_rev(char *s)
 {
 	int len;
 	int i;
+	char *begin_ptr, *end_ptr, ch;
 
 	len = _strlen(s);
-	for (i = len; i >= 0; i--)
+	begin_ptr = s;
+	end_ptr = s;
+	for (i = 0; i < len / 2; i++)
 	{
-		_putchar(*(s + i));
+		ch = *end_ptr;
+		*end_ptr = *begin_ptr;
+		*begin_ptr = ch;
+		begin_ptr++;
+		end_ptr--;
 	}
 	_putchar('\n');
 }
