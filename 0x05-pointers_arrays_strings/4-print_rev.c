@@ -9,6 +9,7 @@
  */
 void print_rev(char *s)
 {
+
 	int len;
 	int i;
 	char *begin_ptr, *end_ptr, ch;
