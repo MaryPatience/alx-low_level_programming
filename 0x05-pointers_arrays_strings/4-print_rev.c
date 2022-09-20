@@ -12,18 +12,15 @@ void print_rev(char *s)
 
 	int len;
 	int i;
-	char *begin_ptr, *end_ptr, ch;
 
-	len = _strlen(s);
-	begin_ptr = s;
-	end_ptr = s;
-	for (i = 0; i < len / 2; i++)
+	len = 0;
+	for (i = 0; *(s + i) != '\0'; i++)
 	{
-		ch = *end_ptr;
-		*end_ptr = *begin_ptr;
-		*begin_ptr = ch;
-		begin_ptr++;
-		end_ptr--;
+		c++;
+	}
+	for (i = c - 1; i >= 0; i--)
+	{
+		_putchar(*(p + i));
 	}
 	_putchar('\n');
 }
