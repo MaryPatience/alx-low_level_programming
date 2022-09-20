@@ -9,7 +9,7 @@
  * Description: change its value
  * Return: 0 Always
  */
-void swap_int(int *a, int *b);
+void swap_int(int *a, int *b)
 {
 	int x;
 	int y;
