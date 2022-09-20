@@ -7,7 +7,7 @@
  * Description: change its value
  * Return: 0 Always
  */
-void _puts(char *str);
+void _puts(char *str)
 {
 	int count = 0;
 
