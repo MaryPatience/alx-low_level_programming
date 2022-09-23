@@ -10,24 +10,17 @@
  * Description: join 2 strings
  * Return: Always 0
  */
-char *_strcat(char *dest, char *src)
+char *_strncat(char *dest, char *src, int n)
 {
-	char aa;
-	char bb;
+	int index = 0, dest_len = 0;
 
-	*dest = aa;
-	*src = bb;
-	while (*dest != '\0')
+	while (dest[index++])
 	{
-		dest++;
+		dest_len++;
 	}
-	while (*src != '\0')
+	for (index = 0; src[index] && index < n; index++)
 	{
-		*dest = *src;
-		 dest++;
-		 src++;
+		dest[dest_len++] = src[index];
 	}
-	*dest = '\0';
-	*dest = aa;
-	return (aa);
+	return (dest);
 }
