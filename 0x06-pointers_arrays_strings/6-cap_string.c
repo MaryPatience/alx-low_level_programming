@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  * *cap_string - concatenator
  * @*str: string 1
@@ -10,7 +11,7 @@
 char *cap_string(char *str)
 {
 	int i = 0, j;
-	char a[] = "\t\n,;.!?"() { } ";
+	char a[] = " \t\n,;.!?\"(){}";
 
 	while (*(str + i))
 	{
@@ -24,9 +25,9 @@ char *cap_string(char *str)
 			{
 				for (j = 0; j <= 12; j++)
 				{
-					if (a[j] == *(str + i -1))
+					if (a[j] == *(str + i - 1))
 					{
-						*(str + i) -= 'a' -'A';
+						*(str + i) -= 'a' - 'A';
 					}
 				}
 			}
