@@ -7,10 +7,11 @@
  * Description: join 2 strings
  * Return: Always 0
  */
+
 char *leet(char *str)
 {
 	int index1 = 0, index2;
-	char leet[8] = {'O', 'L', '?', 'E', 'A', '?', '?' 'T'};
+	char leet[8] = {'O', 'L', '?', 'E', 'A', '?', '?', 'T'};
 
 	while (str[++index1])
 	{
