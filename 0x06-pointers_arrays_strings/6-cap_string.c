@@ -18,7 +18,7 @@ char *cap_string(char *str)
 			index++;
 		}
 		if (str[index - 1] == ' ' ||
-		{
+		
 				str[index - 1] == '\t' ||
 				str[index - 1] == '\n' ||
 				str[index - 1] == ',' ||
@@ -31,8 +31,9 @@ char *cap_string(char *str)
 				str[index - 1] == ')' ||
 				str[index - 1] == '{' ||
 				str[index - 1] == '}')
+		{
 			str[index] -= 32;
 		}
-	}
+	}	
 	return (str);
 }
