@@ -1,10 +1,11 @@
 #include "main.h"
 /**
- * *_strcat - concatenator
+ * *_strncat - concatenator
  * @*dest: string 1
  * @dest: string 1
  * @*src: string 2
  * @src: string 2
+ * @n: number
  *
  * Description: join 2 strings
  * Return: Always 0
