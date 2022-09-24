@@ -15,16 +15,13 @@ char *leet(char *str)
 	int num = 0;
 	char *ret = str, *leetin = LEETIN, *leetout = LEETOUT;
 
-	for (; *str, str++)
+	for (; *str; str++)
 	{
-		for (index2 = 0; index2 <= 7; index2++)
+		for (num = 0; leetin[num]; num++)
 		{
-			for (num = 0; leetin[num]; num++)
+			if (*str == leetin[num])
 			{
-				if (*str == leetin[num])
-				{
-					*str = leetout[num];
-				}
+				*str = leetout[num];
 			}
 		}
 	}
