@@ -1,6 +1,4 @@
 #include "main.h"
-#define LEETIN "aAeEoOtTlL"
-#define LEETOUT "4433007711"
 
 /**
  * leet - encodes a string into 1337
@@ -11,17 +9,16 @@
 
 char *leet(char *str)
 {
-	int num = 0;
-	char *ret = str, *leetin = LEETIN, *leetout = LEETOUT;
+	int i, j;
+	char a[] = "aAeEoOtTlL";
+	char b[] = "4433007711";
 
-	for (; *str; str++)
+	for (i = 0; *(str + i); i++)
 	{
-		for (num = 0; leetin[num]; num++)
+		for (j = 0; j <= 9; j++)
 		{
-			if (*str == leetin[num])
-			{
-				*str = leetout[num];
-			}
+			if (a[j] == *(str + i))
+				*(str + i) = b[j];
 		}
 	}
 	return (str);
