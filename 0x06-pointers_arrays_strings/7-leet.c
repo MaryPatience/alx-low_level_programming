@@ -2,7 +2,7 @@
 #define LEETIN "aAeEoOtTlL"
 #define LEETOUT "4433007711"
 /**
- * *leet - concatenator
+ * *leet - main function
  * @*str: string 1
  * @str: string 1
  *
@@ -12,7 +12,7 @@
 
 char *leet(char *str)
 {
-	int num;
+	int num = 0;
 	char *ret = str, *leetin = LEETIN, *leetout = LEETOUT;
 
 	for (; *str, str++)
