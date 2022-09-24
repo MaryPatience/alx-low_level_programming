@@ -1,4 +1,6 @@
 #include "main.h"
+#define LEETIN "aAeEoOtTlL"
+#define LEETOUT "4433007711"
 /**
  * *leet - concatenator
  * @*str: string 1
@@ -10,19 +12,21 @@
 
 char *leet(char *str)
 {
-	int index1 = 0, index2;
-	char leet[8] = {'O', 'L', '?', 'E', 'A', '?', '?', 'T'};
+	int num;
+	char *ret = str, *leetin = LEETIN, *leetout = LEETOUT;
 
-	while (str[++index1])
+	for (; *str, str++)
 	{
 		for (index2 = 0; index2 <= 7; index2++)
 		{
-			if (str[index1] == leet[index2] || str[index1] - 32 == leet[index2])
+			for (num = 0; leetin[num]; num++)
 			{
-				str[index1] = index2 + '0';
+				if (*str == leetin[num])
+				{
+					*str = leetout[num];
+				}
 			}
 		}
-		index1++;
 	}
 	return (str);
 }
