@@ -1,13 +1,12 @@
 #include "main.h"
 #define LEETIN "aAeEoOtTlL"
 #define LEETOUT "4433007711"
+
 /**
- * *leet - main function
- * @*str: string 1
- * @str: string 1
+ * leet - encodes a string into 1337
+ * @str: the string to encode
  *
- * Description: join 2 strings
- * Return: Always 0
+ * Return: char pointer
  */
 
 char *leet(char *str)
